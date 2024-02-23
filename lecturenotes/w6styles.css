@@ -1,0 +1,16 @@
+/* grouped selector
+h1 {color:plum;}
+
+    font-size: .8em;
+    font-family: Arial, Helvetica, sans-serif
+/* p {color:cadetblue;}
+this is our basic element selector,
+every p on the page gets styled 
+*/
+
+p a {color:seagreen}
+/* this styles the id */
+#secondparagraph {color:chartreuse}
+
+/* this styles a class */
+.purpletext {color: purple;}
