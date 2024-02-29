@@ -1,1 +1,19 @@
 h1 {color:#cfc2c9}
+/* when you use hex color a # is required before the color number */
+/* hex colors are six digits 0-9 or a-f for each each digit */
+
+
+
+a:link {color: #00FF00;}
+a:visited {color:#ff0000;}
+/* the above are psudeo selectors , you need the colon after the element and then state*/
+
+
+a:hover {background-color:#0000ff;
+         text-decoration-style: wavy;}
+/* you can chnage any property in css in a psuedo selector*/
+
+body {background-color: #000000;
+    background-image: url(images/Banner.jpg);
+}
+/* styling body tag means enitre browser window area will eb affected*/
