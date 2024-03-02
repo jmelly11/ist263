@@ -13,7 +13,6 @@ a:hover {background-color:#0000ff;
          text-decoration-style: wavy;}
 /* you can chnage any property in css in a psuedo selector*/
 
-body {background-color: #000000;
-    background-image: url(images/Banner.jpg);
-}
+body {background-image: url(;}
+
 /* styling body tag means enitre browser window area will eb affected*/
