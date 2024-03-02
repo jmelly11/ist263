@@ -2,5 +2,11 @@ body {background-color: #FFFFFF;}
 body {color: #000000}
 h1    {color:#000000}
 
-a:link {color:#353837;}
-a:visited {color:#FCDC2A;}
+
+
+
+nav {background-color: #FFFFFF;}
+nav a {color:#FCDC2A;}
+nav a:hover {background-color: #000000;}
+nav {padding: 10px;}
+nav {margin-bottom: 30px;}
