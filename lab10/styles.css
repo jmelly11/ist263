@@ -15,6 +15,9 @@ nav a {color:#FCDC2A;}
 nav a:hover {background-color: #000000;}
 nav {padding: 10px;}
 nav {margin-bottom: 30px;}
-h1{ text-align:center ;}
+h1 {text-align: center;}
 .work {max-width: 100%;}
-@media screen and  {min-width: 768px;}
+@media screen and (max-width: 600px) {
+    nav a {display: block ; width:100%;}
+} 
+nav a::after { display: none; content:"|"}
