@@ -5,54 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-      nav {
-         background-color:#000000 ;
-         padding: 10px
-         color: 10px;}
+        nav {
+            background-color: #000000;
+            padding: 10px;
+            color: white;
+            display: flex;
+            justify-content: flex-end;
+        }
 
+        nav div {
+            padding: 5px;
+            background-color: #333333;
+            margin: 0 5px;
+        }
 
-         nav div {padding: 5px}
-       .flexend{ justify-content:flex-end ;}
-       .around { justify-content: flex-end;}
-       .between {}
-       .left,.right 
+        .split {
+            justify-content: space-between;
+        }
+
+        .flexend {
+            justify-content: flex-end;
+        }
+
+        .around {
+            justify-content: space-around;
+        }
+
+        .between {
+            justify-content: space-between;
+        }
+
+        .left,
+        .right {}
+
+        .left div,
+        .right div {
+            background-color: #666666;
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+        }
     </style>
 </head>
 <body>
-    <h1> Navigation 4 ways </h1>
+    <h1>Navigation 4 ways</h1>
     <h2>Right side</h2>
-    
-    <div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+    <nav class="flexend">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </nav>
 
-    </div>
     <h2>SpaceAround</h2>
-
-
-    <div>
+    <nav class="around">
         <div></div>
         <div></div>
         <div></div>
         <div></div>
+    </nav>
 
-    </div>
-    
-    <h2> Split</h2>
-
+    <h2>Split</h2>
     <nav class="split">
-  <div class="left">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-
-    </div>
-
-
-
-
+        <div class="left">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
 </body>
 </html>
