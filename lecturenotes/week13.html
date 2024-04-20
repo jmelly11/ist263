@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessbility</title>
+    <style>
+        .skip {background: color #ffa500;
+               padding:8px;
+               border:2px solid #000000;
+                 text-decoration:none ;
+                position: absolute;  /*postions relative to top and bottom of viewport */
+                top: 10px ;
+                left: -999px; /*push the button off screen*/
+
+        }
+        
+        .skip:focus  {
+                left: 100px;px;
+
+        }
+    </style> 
+</head>
+<body>
+<nav>
+    <!--dont forget bookmark link in skip to content-->
+    <a href="#skip" class="skip">Skip to content</a>
+<!--tabindex is for complex wesbites to change tab order-->
+    <a href="https://www.amazon.com" tabindex="4">amazon</a><br>
+    <a href="www.google.com" tabindex="3">google</a><br>
+    <a href="www.ebay.com" tabindex="2">ebay</a>
+</nav>
+<h1>All the Ally Techniques</h1>
+<p id="skip"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, vitae quod! Suscipit molestias nobis repellendus,
+     atque aut fuga quae! Nulla esse quibusdam praesentium? Aperiam hic, reprehenderit facilis qui laudantium a.</p>
+    
+</body>
+</html>

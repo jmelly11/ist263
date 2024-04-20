@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger</title>
+<style>
+
+
+    a {
+        background-color:yellow ;
+    }
+    #hamicon {width: 40px;
+    display:none;}
+
+    #close {
+        display: none;
+    }
+@media only screen and (max-width: 800px) {
+    #hamicon, #close {display: block;}
+    a {display:block}
+    #navlinks {display:none;}
+    .boxit {display:fle;
+        justify-content: space-between;
+}
+}
+
+</style>
+<script>
+    function showNav () {
+        document.getElementById("navlinks").style.display ="block";
+    }
+
+    function hideNav () {
+        document.getElementById("navlinks").style.display ="none";
+    }
+</script>
+
+
+
+
+</head>
+<body>
+    <div class="boxit"
+        <img id="hamicon" src="http://laferger.github.io/ist263/images/hamburger.png" alt="hamburger">
+    <p id="close">X</p>
+    </div>
+    <nav id="navlinks"
+    
+    <h1> Hamburger Menu</h1>
+    
+    <h2>Css</h2>
+    <ol>
+        <li>Large - no hamburger</li>
+        <li>small -show hamburger</li>
+        <li>Large - no X</li>
+        <li>small- links are side by side</li>
+        <li>large- links initially hidden</li>
+        <li>small -</li>
+        <li>small - </li>
+    </ol>
+    <h2> JavaScript</h2>
+    <ol>
+
+        <li></li>
+    </ol>
+</body>
+</html>
