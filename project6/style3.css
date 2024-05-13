@@ -12,3 +12,12 @@ nav a {color:#000000;}
 nav a:hover {background-color:#717978;}
 nav {padding: 10px;}
 nav {margin-bottom: 30px;}
+
+footer  {background-color: #999e99;
+    
+    text-align: center;
+     padding: 20px;
+       left: 0;
+        bottom: 0;
+         width: 100%;
+}
